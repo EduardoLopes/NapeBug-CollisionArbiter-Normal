@@ -50,8 +50,8 @@ class Main extends Sprite{
 		player_1 = new Player(120, 200);
 
 		//instantiate floors (Set up body, polygons, position and stuff)
-    floor_1 = new Floor(0, 320 - 80);
-    floor_2 = new Floor(0, 320 - 160);
+    floor_1 = new Floor(0, 320 - 160);
+    floor_2 = new Floor(0, 320 - 80);
 
     /*
 			This object should invert the direction it is going when touch a wall,
