@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gulp deploy-flash"
+    "deploy": "openfl build flash && gulp deploy-flash"
   },
   "author": "“Eduardo <EduardoLopesDS@gmail.com> (http://square64.tumblr.com/)",
   "devDependencies": {
