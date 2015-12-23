@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="NapeBug" package="com.sample.napebug" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="NapeBug" />
+
+  <window width="240" height="320" unless="mobile" />
+  <window background="#181818" fps="60" />
+
+	<source path="Source" />
+
+	<haxelib name="nape" />
+	<haxelib name="openfl" />
+
+  <haxeflag name="-dce std" />
+
+  <haxedef name="NAPE_RELEASE_BUILD"/>
+  <haxedef name="NAPE_NO_INLINE" if="neko" />
+
+
+	<assets path="Assets" rename="assets" />
+
+</project>
